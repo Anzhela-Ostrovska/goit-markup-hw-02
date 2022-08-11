@@ -12,6 +12,13 @@
 .list {
   list-style: none;
 }
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+img {
+  display: block;
+}
 body {
   background-color: var(--primary-bgc-color);
   color: var(--primary-text-color);
@@ -68,17 +75,16 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 /* button */
-.button {
+.order-btn {
   color: var(--secondary-text-color-white);
   background-color: var(--accent-color);
-  font-family: inherit;
   letter-spacing: 0.06em;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  cursor: pointer;
 }
 /* section */
 .section-title {
@@ -94,6 +100,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .feature-list .text {
   font-size: 14px;
@@ -134,17 +141,15 @@ body {
 }
 /* PORTFOLIO */
 /* button */
-.primary-btn {
+.menu-btn {
   color: var(--title-text-color);
   background-color: #f5f4fa;
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  cursor: pointer;
 }
-.primary-btn:hover,
-.primary-btn:focus {
+.menu-btn:hover,
+.menu-btn:focus {
   color: var(--primary-bgc-color);
   background-color: var(--accent-color);
 }
