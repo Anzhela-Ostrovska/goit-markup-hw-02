@@ -1,0 +1,163 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color-white: #ffffff;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bgc-color: #ffffff;
+  --secondary-bgc-color: #f5f4fa;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+body {
+  background-color: var(--primary-bgc-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+/* logo - header */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-black {
+  color: #000000;
+}
+/* site nav - header*/
+.site-nav,
+.auth-nav {
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+/* hero */
+/* Бекграунд зробила щоб було видно білий текст */
+.hero-title {
+  color: #ffffff;
+  background: #2f303a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* button */
+.button {
+  color: var(--secondary-text-color-white);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+}
+/* section */
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* Features */
+.feature-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.feature-list .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* Workers list */
+.workers-list .title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.workers-list .text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* footer */
+.logo-white {
+  color: var(--secondary-text-color-white);
+  background: #2f303a;
+}
+
+.address-list {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* бекграунд зробила щоб було видно білий колір */
+.address {
+  color: var(--secondary-text-color-white);
+  background: #2f303a;
+}
+.mail,
+.phone {
+  color: rgba(255, 255, 255, 0.6);
+  background: #2f303a;
+}
+/* PORTFOLIO */
+/* button */
+.primary-btn {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  cursor: pointer;
+}
+.primary-btn:hover,
+.primary-btn:focus {
+  color: var(--primary-bgc-color);
+  background-color: var(--accent-color);
+}
+/* види послуг */
+.types-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.types-list .text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
