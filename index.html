@@ -41,8 +41,10 @@
     <main>
       <!-- Герой -->
       <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="order-btn">Замовити послугу</button>
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero-btn">Замовити послугу</button>
+        </div>
       </section>
       <!-- Переваги -->
       <section class="section">
@@ -75,7 +77,7 @@
         </div>
       </section>
       <!-- Чим займаємося -->
-      <section class="section">
+      <section class="section-works">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="work-list list">
@@ -135,10 +137,12 @@
     <!-- Футер -->
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo link">Web<span class="logo-white">Studio</span></a>
+        <div class="footer-logo">
+          <a href="./index.html" class="logo link">Web<span class="logo-white">Studio</span></a>
+        </div>
         <address>
           <ul class="address-list list">
-            <li>
+            <li class="footer-adress">
               <a
                 class="address link"
                 href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
@@ -147,7 +151,9 @@
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li><a class="mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="footer-mail">
+              <a class="mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
             <li><a class="phone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
           </ul>
         </address>
